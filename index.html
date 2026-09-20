@@ -3,276 +3,151 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b1d36">
+  <meta name="theme-color" content="#ffffff">
   <title>Shouju Wang | Computer Science Ph.D. Student</title>
-  <meta name="description" content="Shouju Wang is a Computer Science Ph.D. student at the University of Hawai‘i at Mānoa, researching trustworthy AI, LLM privacy, contextual integrity, and agent alignment.">
+  <meta name="description" content="Shouju Wang is a Computer Science Ph.D. student at UNC Charlotte researching LLM agents, privacy, evaluation, safety, and alignment.">
   <link rel="canonical" href="https://shouju-wang.github.io/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Shouju Wang | Computer Science Ph.D. Student">
-  <meta property="og:description" content="Researching trustworthy AI, LLM privacy, contextual integrity, and agent alignment.">
+  <meta property="og:description" content="LLM agents, contextual privacy, evaluation, safety, and alignment.">
   <meta property="og:url" content="https://shouju-wang.github.io/">
   <meta property="og:image" content="https://shouju-wang.github.io/images/avatar.jpg">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1d36'/%3E%3Ctext x='50' y='64' text-anchor='middle' font-size='44' font-family='Georgia' font-weight='bold' fill='white'%3ESW%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23172033'/%3E%3Ctext x='50' y='63' text-anchor='middle' font-size='40' font-family='Georgia' font-weight='bold' fill='white'%3ESW%3C/text%3E%3C/svg%3E">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <header class="site-header" id="site-header">
-    <div class="site-shell">
-      <a class="brand" href="index.html" aria-label="Shouju Wang — home">
-        <span class="brand-mark" aria-hidden="true">SW</span>
-        <span class="brand-name">Shouju Wang</span>
-      </a>
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+  <div class="site-layout">
+    <aside class="profile-sidebar" aria-label="Profile">
+      <img class="profile-avatar" src="images/avatar.jpg" alt="Portrait of Shouju Wang" width="2316" height="2655">
+      <a class="profile-name" href="index.html">Shouju Wang</a>
+      <div>
+        <p class="profile-role">Ph.D. Student in Computer Science</p>
+        <p class="profile-affiliation">University of North Carolina at Charlotte</p>
+      </div>
+      <p class="profile-bio">I study how to evaluate and build reliable language-model agents, with interests in contextual privacy, safety, and alignment.</p>
+      <ul class="profile-links">
+        <li><span class="profile-label">Email</span><a href="mailto:shoujuw@hawaii.edu">shoujuw@hawaii.edu</a></li>
+        <li><span class="profile-label">Scholar</span><a href="https://scholar.google.com/citations?hl=en&amp;user=ut74MgsAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><span class="profile-label">GitHub</span><a href="https://github.com/voidreaming" target="_blank" rel="noopener noreferrer">voidreaming</a></li>
+        <li><span class="profile-label">LinkedIn</span><a href="https://www.linkedin.com/in/shouju-wang-4b030a385/" target="_blank" rel="noopener noreferrer">shouju-wang</a></li>
+      </ul>
+      <p class="profile-meta">Updated September 2026</p>
+    </aside>
+
+    <main class="content-column" id="main-content">
+      <nav class="top-nav" aria-label="Primary navigation">
         <a href="#about" aria-current="page">Home</a>
         <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#experience">Experience</a>
-        <a href="blog/index.html">Writing</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
       </nav>
-    </div>
-  </header>
 
-  <main id="main-content">
-    <div class="site-shell">
-      <section class="hero" id="about" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Computer Science Ph.D. Student</p>
-          <h1 id="hero-title">Building AI systems people can <em>trust.</em></h1>
-          <p class="lede">
-            I’m <strong>Shouju Wang</strong>, a Ph.D. student at the University of Hawai‘i at Mānoa advised by Prof. Haopeng Zhang. I study how language-model agents can respect privacy, reason about social context, and act reliably in the real world.
-          </p>
-          <div class="hero-actions" aria-label="Contact and profile links">
-            <a class="button button-primary" href="mailto:shoujuw@hawaii.edu">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
-              Get in touch
-            </a>
-            <a class="button button-secondary" href="CV.pdf" target="_blank" rel="noopener noreferrer">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h6"/></svg>
-              Curriculum vitae
-            </a>
-          </div>
-          <ul class="hero-facts" aria-label="Research overview">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Trustworthy AI</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L8 18l-4 1 1-4Z"/></svg>LLM &amp; VLM agents</li>
-          </ul>
+      <header class="home-header" id="about">
+        <p class="eyebrow">Computer Science Ph.D. Student</p>
+        <h1>Shouju Wang</h1>
+        <div class="home-deck">
+          <p>I am a Ph.D. student in Computer Science at the University of North Carolina at Charlotte. My research focuses on language-model agents: how to evaluate their behavior, design practical harnesses, and make them safer and more reliable in real-world workflows.</p>
+          <p>I am especially interested in contextual privacy, agent evaluation, post-training data, and safety and alignment.</p>
         </div>
+        <div class="inline-links" aria-label="Profile links">
+          <a href="cv.html">Curriculum vitae</a>
+          <a href="research-statement.html">Research statement</a>
+          <a href="mailto:shoujuw@hawaii.edu">Email</a>
+        </div>
+      </header>
 
-        <figure class="portrait">
-          <div class="portrait-frame">
-            <img src="images/avatar.jpg" alt="Portrait of Shouju Wang" width="2316" height="2655">
-          </div>
-          <figcaption class="portrait-note">Trustworthy AI<span>Privacy · Alignment · Fairness</span></figcaption>
-        </figure>
+      <section class="section" aria-labelledby="news-title">
+        <h2 class="section-title" id="news-title">News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-09">Sep 2026</time><span>Our paper <a href="https://arxiv.org/abs/2609.20804" target="_blank" rel="noopener noreferrer">An Empirical Study of Harness Design for Coding Agents</a> is available on arXiv.</span></li>
+          <li><time datetime="2026-08">Aug 2026</time><span>Started my Ph.D. in Computer Science at the University of North Carolina at Charlotte.</span></li>
+          <li><time datetime="2026-08">Aug 2026</time><span>Completed a research internship at Zoom Video Communications, working on agentic safety and coding-agent harnesses.</span></li>
+          <li><time datetime="2025-09">Sep 2025</time><span><a href="https://arxiv.org/abs/2509.17488" target="_blank" rel="noopener noreferrer">Privacy in Action</a> appeared in Findings of EMNLP 2025.</span></li>
+        </ul>
       </section>
-    </div>
 
-    <section class="section research-section" id="research" aria-labelledby="research-title">
-      <div class="site-shell">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Research</p>
-            <h2 id="research-title">Making agents safer by design.</h2>
-          </div>
-          <p>I build evaluation methods and practical safeguards for AI agents operating with sensitive information and social norms.</p>
-        </div>
-        <div class="research-grid">
-          <article class="research-card">
-            <span class="research-number" aria-hidden="true">01</span>
-            <h3>Privacy &amp; contextual integrity</h3>
-            <p>Understanding when an agent’s use of information is appropriate—not merely whether that information is private.</p>
+      <section class="section" id="research" aria-labelledby="research-title">
+        <h2 class="section-title" id="research-title">Research interests</h2>
+        <div class="interest-list">
+          <article>
+            <h3>Language-model agents and harnesses</h3>
+            <p>I study how planning, tool interfaces, and context management affect the accuracy, cost, and reliability of long-horizon agents.</p>
           </article>
-          <article class="research-card">
-            <span class="research-number" aria-hidden="true">02</span>
-            <h3>Reliable language-model agents</h3>
-            <p>Evaluating and aligning LLM and VLM agents that perceive, reason about, and act across complex workflows.</p>
+          <article>
+            <h3>Contextual privacy and safety</h3>
+            <p>I develop evaluations and mitigations for agents that work with sensitive information, with an emphasis on contextual integrity in multimodal settings.</p>
           </article>
-          <article class="research-card">
-            <span class="research-number" aria-hidden="true">03</span>
-            <h3>Fair machine learning</h3>
-            <p>Developing causal approaches to reduce bias while retaining useful performance in graph-based anomaly detection.</p>
+          <article>
+            <h3>Evaluation and alignment</h3>
+            <p>I am interested in turning high-level safety principles into concrete behavioral rules, benchmarks, and diagnostic tools for deployed agents.</p>
           </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section featured-section" aria-labelledby="featured-title">
-      <div class="site-shell">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Featured work</p>
-            <h2 id="featured-title">Context needs to be part of the model.</h2>
-          </div>
-        </div>
-        <article class="featured-publication">
-          <div>
-            <span class="label">Preprint</span>
-            <h3>MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents</h3>
-            <p class="authors"><strong>Shouju Wang</strong>, et al.</p>
-            <p class="summary">A benchmark for studying whether multimodal language-model agents make privacy-sensitive decisions that fit the context in which information appears.</p>
-          </div>
-          <div class="featured-meta">
-            <span class="meta-kicker">Research area</span>
-            <strong>LLM privacy &amp; multimodal agents</strong>
-            <p>arXiv preprint · 2026</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="news" aria-label="News and academic path">
-      <div class="site-shell split-section">
-        <div>
-          <div class="section-heading">
-            <p class="eyebrow">Recent news</p>
-            <h2>What’s new</h2>
-          </div>
-          <ul class="news-list">
-            <li class="news-item"><span class="news-date">May 2026</span><span class="news-copy">Research internship at <strong>Zoom Gen AI</strong>, focusing on agent safety and privacy.</span></li>
-            <li class="news-item"><span class="news-date">Jan 2026</span><span class="news-copy">Released the <strong>MPCI-Bench</strong> preprint for multimodal contextual-integrity evaluation.</span></li>
-            <li class="news-item"><span class="news-date">Sep 2025</span><span class="news-copy">Began my Ph.D. at the <strong>University of Hawai‘i at Mānoa</strong>.</span></li>
-            <li class="news-item"><span class="news-date">Sep 2025</span><span class="news-copy"><strong>Privacy in Action</strong> accepted to EMNLP 2025 Findings.</span></li>
-          </ul>
-        </div>
-        <div>
-          <div class="section-heading">
-            <p class="eyebrow">Academic path</p>
-            <h2>Experience</h2>
-          </div>
-          <ol class="timeline-list">
-            <li class="timeline-item"><time class="timeline-time">2025 — Present</time><h3>University of Hawai‘i at Mānoa</h3><p>Ph.D. student in Computer Science.</p></li>
-            <li class="timeline-item"><time class="timeline-time">2024 — 2025</time><h3>Microsoft Research Asia</h3><p>Research intern, Social Computing &amp; DKI Groups.</p></li>
-            <li class="timeline-item"><time class="timeline-time">2023 — 2024</time><h3>Duke Kunshan University</h3><p>Research assistant in fair graph learning.</p></li>
-            <li class="timeline-item"><time class="timeline-time">2021 — 2025</time><h3>Wuhan University</h3><p>B.Eng. in Computer Science, Hongyi Honor College.</p></li>
-          </ol>
-        </div>
-      </div>
-    </section>
-
-    <section class="section publications-section" id="publications" aria-labelledby="publications-title">
-      <div class="site-shell">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Selected publications</p>
-            <h2 id="publications-title">Research contributions</h2>
-          </div>
-          <a class="button button-secondary" href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=ut74MgsAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+      <section class="section" aria-labelledby="publications-title">
+        <div class="section-heading-row">
+          <h2 class="section-title" id="publications-title">Selected publications</h2>
+          <a href="publications.html">All publications →</a>
         </div>
         <ol class="publication-list">
           <li class="publication">
             <span class="publication-year">2026</span>
             <article>
-              <span class="publication-type">Preprint</span>
-              <h3>MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents</h3>
-              <p class="publication-authors"><strong>Shouju Wang</strong>, et al.</p>
-              <p class="publication-venue">arXiv preprint</p>
+              <h3 class="publication-title"><a href="https://arxiv.org/abs/2609.20804" target="_blank" rel="noopener noreferrer">An Empirical Study of Harness Design for Coding Agents</a></h3>
+              <p class="publication-authors">Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, <strong>Shouju Wang</strong>, Kaiqiang Song, Fei Liu, Hamed Zamani, and Xiaoyang Wang.</p>
+              <p class="publication-venue">arXiv preprint arXiv:2609.20804</p>
+              <p class="publication-links"><a href="https://arxiv.org/abs/2609.20804" target="_blank" rel="noopener noreferrer">[arXiv]</a><a href="https://arxiv.org/pdf/2609.20804" target="_blank" rel="noopener noreferrer">[PDF]</a></p>
+            </article>
+          </li>
+          <li class="publication">
+            <span class="publication-year">2026</span>
+            <article>
+              <h3 class="publication-title"><a href="https://arxiv.org/abs/2601.08235" target="_blank" rel="noopener noreferrer">MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents</a></h3>
+              <p class="publication-authors"><strong>Shouju Wang</strong> and Haopeng Zhang.</p>
+              <p class="publication-venue">arXiv preprint arXiv:2601.08235</p>
+              <p class="publication-links"><a href="https://arxiv.org/abs/2601.08235" target="_blank" rel="noopener noreferrer">[arXiv]</a></p>
             </article>
           </li>
           <li class="publication">
             <span class="publication-year">2025</span>
             <article>
-              <span class="publication-type">Findings</span>
-              <h3>Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents</h3>
+              <h3 class="publication-title"><a href="https://arxiv.org/abs/2509.17488" target="_blank" rel="noopener noreferrer">Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents</a></h3>
               <p class="publication-authors"><strong>Shouju Wang</strong>, et al.</p>
-              <p class="publication-venue"><em>Findings of EMNLP 2025</em></p>
-            </article>
-          </li>
-          <li class="publication">
-            <span class="publication-year">2025</span>
-            <article>
-              <span class="publication-type">Oral</span>
-              <h3>Enhancing Fairness in Autoencoders for Node-Level Graph Anomaly Detection</h3>
-              <p class="publication-authors"><strong>Shouju Wang</strong>, et al.</p>
-              <p class="publication-venue"><em>ECAI 2025</em> · Oral presentation</p>
+              <p class="publication-venue">Findings of EMNLP 2025</p>
+              <p class="publication-links"><a href="https://arxiv.org/abs/2509.17488" target="_blank" rel="noopener noreferrer">[arXiv]</a></p>
             </article>
           </li>
         </ol>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="site-shell">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Experience</p>
-            <h2 id="experience-title">Research across ideas and impact.</h2>
-          </div>
-          <p>My work has moved between academic research and real-world AI products.</p>
+      <section class="section" aria-labelledby="experience-title">
+        <div class="section-heading-row">
+          <h2 class="section-title" id="experience-title">Recent experience</h2>
+          <a href="cv.html#experience">Full CV →</a>
         </div>
-        <div class="experience-grid">
-          <article class="experience-card">
-            <div class="experience-topline"><h3>University of Hawai‘i at Mānoa</h3><span class="experience-date">Sep 2025 — Present</span></div>
-            <p class="experience-role">Ph.D. Student</p>
-            <ul><li>Multimodal contextual integrity for LLM and VLM agents.</li></ul>
-          </article>
-          <article class="experience-card">
-            <div class="experience-topline"><h3>Microsoft Research Asia</h3><span class="experience-date">Dec 2024 — Sep 2025</span></div>
-            <p class="experience-role">Research Intern · Social Computing &amp; DKI Groups</p>
-            <ul><li>Realistic privacy mitigation for LLM agents.</li><li>Intelligent meeting-time recommendation for Microsoft Teams.</li></ul>
-          </article>
-          <article class="experience-card">
-            <div class="experience-topline"><h3>Duke Kunshan University</h3><span class="experience-date">Aug 2023 — Aug 2024</span></div>
-            <p class="experience-role">Research Assistant</p>
-            <ul><li>Fair graph anomaly detection and causal inference.</li></ul>
-          </article>
-          <article class="experience-card">
-            <div class="experience-topline"><h3>Wuhan University</h3><span class="experience-date">Sep 2021 — Jun 2025</span></div>
-            <p class="experience-role">B.Eng. in Computer Science</p>
-            <ul><li>Hongyi Honor College.</li></ul>
-          </article>
-        </div>
-      </div>
-    </section>
+        <ol class="entry-list">
+          <li class="entry">
+            <div class="entry-topline"><h3 class="entry-heading">Zoom Video Communications</h3><span class="entry-date">May 2026 — Aug 2026</span></div>
+            <p class="entry-role">Research Intern — Agentic Safety / Agent Harness</p>
+          </li>
+          <li class="entry">
+            <div class="entry-topline"><h3 class="entry-heading">University of North Carolina at Charlotte</h3><span class="entry-date">Aug 2026 — Present</span></div>
+            <p class="entry-role">Ph.D. Student in Computer Science</p>
+          </li>
+          <li class="entry">
+            <div class="entry-topline"><h3 class="entry-heading">Microsoft Research Asia</h3><span class="entry-date">Dec 2024 — Sep 2025</span></div>
+            <p class="entry-role">Research Intern — Social Computing &amp; DKI Groups</p>
+          </li>
+        </ol>
+      </section>
 
-    <section class="section contact-section" aria-labelledby="contact-title">
-      <div class="site-shell">
-        <div class="contact-panel">
-          <p class="eyebrow">Collaboration</p>
-          <h2 id="contact-title">Interested in trustworthy AI?</h2>
-          <p>I welcome conversations and collaborations on privacy-preserving AI, norm-aware agents, and responsible machine learning.</p>
-          <a class="button" href="mailto:shoujuw@hawaii.edu">Email Shouju <span aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="site-shell footer-inner">
-      <p>© 2026 Shouju Wang. Built for the open web.</p>
-      <nav class="footer-links" aria-label="Footer links">
-        <a href="research-statement.html">Research statement</a>
-        <a href="https://www.linkedin.com/in/shouju-wang-4b030a385/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/shouju-wang" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </nav>
-    </div>
-  </footer>
-
-  <script>
-    const header = document.getElementById('site-header');
-    const menuButton = document.getElementById('menu-toggle');
-    const navigation = document.getElementById('site-nav');
-
-    const updateHeader = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
-    updateHeader();
-    window.addEventListener('scroll', updateHeader, { passive: true });
-
-    menuButton.addEventListener('click', () => {
-      const isOpen = navigation.classList.toggle('is-open');
-      menuButton.setAttribute('aria-expanded', String(isOpen));
-      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
-    });
-
-    navigation.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        navigation.classList.remove('is-open');
-        menuButton.setAttribute('aria-expanded', 'false');
-        menuButton.setAttribute('aria-label', 'Open navigation');
-      });
-    });
-  </script>
+      <footer class="content-footer">
+        <p>© 2026 Shouju Wang.</p>
+        <nav aria-label="Footer navigation"><a href="research-statement.html">Research statement</a><a href="publications.html">Publications</a><a href="cv.html">CV</a></nav>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
