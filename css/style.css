@@ -342,24 +342,6 @@ h1,
 .entry-details { margin: 0.55rem 0 0; padding-left: 1.08rem; font-size: 0.94rem; }
 .entry-details li + li { margin-top: 0.24rem; }
 
-.education-list { display: grid; gap: 0.95rem; }
-.education-list p { margin: 0.15rem 0 0; font-size: 0.94rem; }
-
-.experience-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
-  gap: clamp(2rem, 6vw, 4.5rem);
-}
-
-.subsection-title {
-  margin: 0 0 1.15rem;
-  color: var(--muted);
-  font-size: 0.79rem;
-  font-weight: 700;
-  letter-spacing: 0.075em;
-  text-transform: uppercase;
-}
-
 .skill-list {
   display: grid;
   gap: 0.55rem;
@@ -451,7 +433,6 @@ blockquote {
   .top-nav { padding-bottom: 0.85rem; }
   .home-header,
   .page-header { padding: 2.25rem 0 1.85rem; }
-  .experience-grid { grid-template-columns: 1fr; gap: 2rem; }
 }
 
 @media (max-width: 560px) {
