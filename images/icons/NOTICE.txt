@@ -1,0 +1,5 @@
+Party popper emoji (U+1F389) from Google Noto Emoji, release v2.047.
+Copyright Google LLC and the Noto Emoji contributors.
+Source: https://github.com/googlefonts/noto-emoji/blob/v2.047/svg/emoji_u1f389.svg
+SVG artwork is unchanged; only trailing source whitespace was normalized.
+Used under the Apache License 2.0; see Noto-Emoji-LICENSE.txt.

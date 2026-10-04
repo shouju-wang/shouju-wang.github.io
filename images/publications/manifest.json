@@ -1,0 +1,101 @@
+{
+  "description": "Original paper figures used as publication previews.",
+  "processing": "Full source artwork retained; proportionally scaled to 800 pixels wide with PyMuPDF and saved as PNG. No generative editing or additional cropping.",
+  "page_numbering": "One-based PDF page indices.",
+  "caption_note": "Caption summaries are paraphrases; source figures and papers are linked per entry.",
+  "images": [
+    {
+      "file": "harness-design.png",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "source_url": "https://arxiv.org/html/2609.20804v1/fig_graphical_abstract.png",
+      "paper_url": "https://arxiv.org/abs/2609.20804v1",
+      "figure": 1,
+      "pdf_page": 1,
+      "caption_summary": "Study overview: ablations of context management, planning, and action space across models, benchmarks, and context budgets.",
+      "alt": "Coding harness study overview with context management, planning, and action-space ablations.",
+      "source_dimensions": [
+        1319,
+        627
+      ],
+      "source_sha256": "40dd1ae9438712fd74b99c250e47950bcc386c5c68dc37eeced99d49c12023c1",
+      "dimensions": [
+        800,
+        380
+      ],
+      "sha256": "ac1f8c5fe52b92661b43e9d4511d190e543fd09cb6bb8d765d1bf463747b38e7",
+      "bytes": 367239
+    },
+    {
+      "file": "agentprivarena.png",
+      "title": "AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy",
+      "source_url": "/agentprivarena/assets/figures/figure-1-overview.png",
+      "paper_url": "/agentprivarena/assets/agentprivarena.pdf",
+      "figure": 1,
+      "pdf_page": 3,
+      "original_pdf_crop_points": [
+        105,
+        71,
+        490,
+        260
+      ],
+      "original_pdf_sha256": "882ca6c6133dc3c81af177fd22b16dc172b7615a3aa14d799bc8b62852d3c877",
+      "caption_summary": "Benchmark overview: source scenarios become seeded services accessed by an agent through MCP during task execution.",
+      "alt": "AgentPrivArena connects seeded service records to an agent that reads information and executes actions.",
+      "source_dimensions": [
+        1925,
+        945
+      ],
+      "source_sha256": "90a48705112dc15e1203ca63ce541ea5d8ae1e742a13661fe24b86be03cd12bc",
+      "dimensions": [
+        800,
+        393
+      ],
+      "sha256": "9fe190efc535cf13049a88c60f2a0875e1435719f48ae51289dde6377b14c12c",
+      "bytes": 101925
+    },
+    {
+      "file": "mpci-bench.png",
+      "title": "MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents",
+      "source_url": "/mpci-bench/assets/method-flow.png",
+      "paper_url": "https://arxiv.org/abs/2601.08235v3",
+      "figure": 2,
+      "pdf_page": 4,
+      "caption_summary": "Construction pipeline from image-grounded contextual-integrity seeds through refined stories to executable agent traces.",
+      "alt": "MPCI-Bench construction pipeline: image-based seed pairs, story refinement, and agent trace simulation.",
+      "source_dimensions": [
+        2030,
+        1037
+      ],
+      "source_sha256": "00106d085d0f20d9fc3a353e262beccb0a2f8b10618864c56b400cfe99e2dc5b",
+      "dimensions": [
+        800,
+        409
+      ],
+      "sha256": "4812afbe5ed60e521ca8c9781cd5a9de191aebea9ca55907dbb7d150e5170012",
+      "bytes": 208078,
+      "original_source_url": "https://arxiv.org/html/2601.08235v3/Method_Flow.png",
+      "provenance_note": "The local source asset is byte-identical to the arXiv v3 HTML Figure 2 artwork; PDF page verified against v3."
+    },
+    {
+      "file": "privacy-in-action.png",
+      "title": "Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents",
+      "source_url": "https://arxiv.org/html/2509.17488v1/privacyChecker_title_figure_cropped.png",
+      "paper_url": "https://arxiv.org/abs/2509.17488v1",
+      "figure": 1,
+      "pdf_page": 3,
+      "caption_summary": "PrivacyChecker integrates into agents and MCP tools to filter inappropriate disclosures in a live multi-agent workflow.",
+      "alt": "PrivacyChecker integration in an agent workflow using MCP tools and agent-to-agent communication.",
+      "source_dimensions": [
+        1040,
+        498
+      ],
+      "source_sha256": "297c12b5597e501d1a24e6a44609f331eb4c8127d5d5dcbd243a87b3f04c878a",
+      "dimensions": [
+        800,
+        383
+      ],
+      "sha256": "ced9153d4dd817830847696b67ec860302c4dc02eec816075cb917543d356510",
+      "bytes": 162308
+    }
+  ]
+}
