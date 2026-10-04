@@ -1,0 +1,43 @@
+# Third-party notices
+
+## Privasis website
+
+Source: https://github.com/privasis/privasis.github.io
+Reference commit: d1226b766025060418654d81da3ce3913ef649db
+
+Copyright (c) 2026 Hyunwoo Kim. The upstream MIT license is preserved verbatim in LICENSE. `static/css/index.css` is copied from this source. The page structure, resource button styling, sidebar rules, and footer are adapted from its HTML. The benchmark text, figures, and tables are replaced; scripts are rewritten for the features used here. No upstream analytics are included.
+
+## Nerfies template
+
+Source: https://github.com/nerfies/nerfies.github.io
+
+Privasis credits Nerfies and retains its Creative Commons Attribution-ShareAlike 4.0 notice. We preserve both attributions and release our adapted website template under the same CC BY-SA 4.0 terms: https://creativecommons.org/licenses/by-sa/4.0/ (legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode). The MIT permissions applying to upstream files remain in place. This template notice does not relicense the paper, its figures, or third-party datasets.
+
+## Bulma 0.9.1
+
+Source: https://github.com/jgthms/bulma/tree/0.9.1
+`static/css/bulma.min.css` is distributed under the MIT license. Its embedded license header is preserved. See LICENSES/Bulma-MIT.txt for the full upstream notice.
+
+## Research content
+
+Paper and figures: Shouju Wang and Haopeng Zhang, MPCI-Bench, arXiv:2601.08235v3. Included at the author's request. Source images in the paper originate from VISPR. Benchmark, code, and source-image terms remain those of their respective releases.
+
+## Benchmark example excerpts
+
+Six records (three pairs: `2017_12369681`, `2017_24887648`, `2017_99670226`) are reproduced from MPCI-Bench by Shouju Wang and Haopeng Zhang. Source: https://github.com/hpzhang94/MPCI-Bench/blob/bd85c6ec5c7aef81570da73081bdcbbe3af97893/dataset/mpci_bench.json.
+
+The repository identifies the dataset license as CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The selected fields are preserved verbatim; only formatting, category labels, titles, and explanatory summaries are adapted for display. The records contain synthetic stories and tool histories. The three source photographs are included separately under their original licenses, as credited below; synthetic scenarios are not claims about the photographed people or events. Field-level provenance is included in `static/data/examples.json`.
+
+## Redrawn result figures
+
+The scientific plots in `assets/results/` are generated from Tables 4 and 5 of the author's paper. Exact plotted values and source links are included in [figure-data.json](https://github.com/voidreaming/mpci-bench/blob/main/scripts/figure-data.json); [render_figures.py](https://github.com/voidreaming/mpci-bench/blob/main/scripts/render_figures.py) reproduces desktop and mobile versions.
+
+## Example photographs
+
+The images in `assets/examples/` are unmodified original Flickr photographs referenced by VISPR training annotations. Each is licensed [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Original dimensions, download URLs, VISPR IDs and file hashes are in `assets/examples/attributions.json`.
+
+- `2017_12369681.jpg`: “Meade High Graduation” — [U.S. Army Garrison Fort George G. Meade](https://www.flickr.com/photos/ftmeade/14403503191/).
+- `2017_24887648.jpg`: “MEDRETE 15-1 takes place in Burundi” — [Sgt. 1st Class Matthew Chlosta / U.S. Army Africa](https://www.flickr.com/photos/usarmyafrica/16263599497/).
+- `2017_99670226.jpg`: “tickets!” — [Chris Connelly](https://www.flickr.com/photos/c_conn/2778118990/).
+
+VISPR: Tribhuvanesh Orekondy, Bernt Schiele, and Mario Fritz. *Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images.* ICCV 2017. [Dataset and download instructions](https://tribhuvanesh.github.io/vpa/). The VISPR dataset is CC BY-NC 4.0; its documentation states that original licenses apply to the images.
