@@ -33,7 +33,7 @@ git remote -v
 - `mpci-bench/` — MPCI-Bench project page, figures, benchmark examples, and result data
 - `agentprivarena/` — AgentPrivArena project page, manuscript PDF, figures, and result data
 
-Both project pages publish with this repository at `https://shouju-wang.github.io/mpci-bench/` and `https://shouju-wang.github.io/agentprivarena/`. Edit their `index.html`, `static/`, and `assets/` files here; no separate build is required. The original `voidreaming/mpci-bench` and `voidreaming/agentprivarena` repositories retain the old URLs as redirects and preserve existing direct asset links. Their Pages workflows must remain enabled for those links to work.
+Both project pages publish with this repository at `https://shouju-wang.github.io/mpci-bench/` and `https://shouju-wang.github.io/agentprivarena/`. Edit their `index.html`, `static/`, and `assets/` files here; no separate build is required. The original `voidreaming/mpci-bench` and `voidreaming/agentprivarena` repositories retain the old URLs as redirects and preserve existing direct asset links. Their Pages workflows must remain enabled for those links to work. The AgentPrivArena research implementation continues to live in `voidreaming/agentprivarena`; only its project website moved here.
 
 Project-specific provenance and template licenses are recorded in each project directory's `README.md`, `THIRD_PARTY_NOTICES.md`, `LICENSE`, and `LICENSES/`. These licenses apply to the project templates and assets as specified, not to the rest of the personal homepage.
 
