@@ -59,9 +59,9 @@ strong { color: var(--ink); font-weight: 650; }
 
 .site-layout {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 760px);
   gap: clamp(2rem, 5vw, 3.5rem);
-  width: min(100% - 3rem, 1200px);
+  width: min(100% - 3rem, 1036px);
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -87,8 +87,8 @@ strong { color: var(--ink); font-weight: 650; }
 .profile-name {
   margin: 0;
   color: var(--ink);
-  font-family: var(--sans);
-  font-size: 1.35rem;
+  font-family: var(--serif);
+  font-size: 1.76rem;
   font-weight: 650;
   letter-spacing: -0.02em;
   line-height: 1.3;
@@ -98,10 +98,19 @@ strong { color: var(--ink); font-weight: 650; }
 .profile-name a:hover,
 .profile-name a:focus-visible { color: var(--link); text-decoration: none; }
 
+.profile-nickname {
+  margin: 0.4rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.profile-nickname img { display: inline-block; width: 1.15em; height: 1.15em; vertical-align: -0.17em; }
+
 .profile-role {
   margin: 0.45rem 0 0;
   color: var(--muted);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.84rem;
   line-height: 1.45;
 }
@@ -114,7 +123,7 @@ strong { color: var(--ink); font-weight: 650; }
   gap: 0.5rem;
   margin: 0 0 1.2rem;
   color: var(--muted);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.8rem;
 }
 
@@ -128,7 +137,7 @@ strong { color: var(--ink); font-weight: 650; }
   padding: 1rem 0 0;
   border-top: 1px solid var(--line);
   list-style: none;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.84rem;
   line-height: 1.45;
 }
@@ -153,7 +162,7 @@ strong { color: var(--ink); font-weight: 650; }
   gap: 0.55rem 1.25rem;
   padding: 0 0 1rem;
   border-bottom: 1px solid var(--line);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 0.875rem;
   font-weight: 560;
   line-height: 1.4;
@@ -168,7 +177,7 @@ strong { color: var(--ink); font-weight: 650; }
 .page-header { padding: 3rem 0 2.5rem; }
 
 .home-header { padding: 1.8rem 0 1.5rem; }
-.home-header .home-deck { max-width: none; margin-top: 0; }
+.home-header .home-deck { max-width: 43rem; margin-top: 0; }
 
 .eyebrow {
   margin: 0 0 0.5rem;
@@ -450,7 +459,7 @@ blockquote {
   }
 
   .profile-avatar { width: 128px; height: 128px; margin: 0 auto 1rem; }
-  .profile-name { font-size: 1.35rem; }
+  .profile-name { font-size: 1.58rem; }
   .profile-role { margin-top: 0.4rem; }
   .profile-bio { max-width: 22rem; margin: 0.75rem auto; }
   .profile-location { justify-content: center; margin-bottom: 0.8rem; }

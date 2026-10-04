@@ -31,7 +31,7 @@ git remote -v
 - `blog/` — optional writing archive
 - `css/style.css` — shared academic-site layout and typography
 - `images/publications/` — original paper-figure previews; `manifest.json` records source URLs, figure numbers, dimensions, and hashes
-- `images/icons/` — locally served Noto party-popper emoji and its Apache 2.0 license, so acceptance celebrations display even without an installed emoji font
+- `images/icons/` — locally served Noto emoji artwork and its Apache 2.0 license, so celebrations and the Soju nickname display even without an installed emoji font
 - `mpci-bench/` — MPCI-Bench project page, figures, benchmark examples, and result data
 - `agentprivarena/` — AgentPrivArena project page, manuscript PDF, figures, and result data
 
