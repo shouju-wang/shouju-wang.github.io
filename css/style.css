@@ -254,7 +254,8 @@ h1,
   font-variant-numeric: tabular-nums;
 }
 
-.news-celebration { display: inline-block; width: 1.1em; height: 1.1em; vertical-align: -0.15em; margin-right: 0.1em; }
+.news-celebration,
+.inline-emoji { display: inline-block; width: 1.1em; height: 1.1em; vertical-align: -0.15em; margin-right: 0.1em; }
 
 .interest-list { display: grid; gap: 1.15rem; }
 

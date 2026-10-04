@@ -1,6 +1,7 @@
-Party popper (U+1F389) and bottle with popping cork (U+1F37E) emoji from Google Noto Emoji, release v2.047.
+Party popper (U+1F389), bottle with popping cork (U+1F37E), and palm tree (U+1F334) emoji from Google Noto Emoji, release v2.047.
 Copyright Google LLC and the Noto Emoji contributors.
 Source: https://github.com/googlefonts/noto-emoji/blob/v2.047/svg/emoji_u1f389.svg
 Bottle source: https://github.com/googlefonts/noto-emoji/blob/v2.047/svg/emoji_u1f37e.svg
+Palm tree source: https://github.com/googlefonts/noto-emoji/blob/v2.047/svg/emoji_u1f334.svg
 SVG artwork is unchanged; only trailing source whitespace was normalized.
 Used under the Apache License 2.0; see Noto-Emoji-LICENSE.txt.
